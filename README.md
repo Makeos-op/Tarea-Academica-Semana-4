@@ -44,4 +44,4 @@ La entidad **Álbum** debe tener al menos las siguientes propiedades:
 ## 📚 Referencia
 
 Este proyecto se basa en el laboratorio:  
-**Lab06 - Multilistas en Windows Forms (.Net Framework) I**.
+[**Lab06 - Multilistas en Windows Forms (.Net Framework) I**](https://www.youtube.com/watch?v=-1Bvo03GZ_0&t=367s)

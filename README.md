@@ -1,4 +1,4 @@
-# Tarea-Academica-Semana-4: Gestor de Álbumes y Canciones
+# Tarea Academica Semana 4: Gestor de Álbumes y Canciones
 Este programa permite gestionar álbumes musicales y sus canciones, cumpliendo con los siguientes requerimientos.
 
 ---

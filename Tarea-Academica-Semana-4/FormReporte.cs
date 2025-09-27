@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tarea_Academica_Semana_4
 {
-    public partial class Form1 : Form
+    public partial class FormReporte : Form
     {
-        public Form1()
+        public FormReporte()
         {
             InitializeComponent();
         }

@@ -16,7 +16,7 @@ namespace Tarea_Academica_Semana_4
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormPrincipal());
         }
     }
 }

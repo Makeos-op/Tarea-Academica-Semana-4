@@ -23,18 +23,24 @@ namespace Tarea_Academica_Semana_4.repositories
             
             album.Canciones.Add(Cancion);
         }
-        public List<Cancion> ListarTodoPorAlbum(string codigoCancion)
+        public static List<Cancion> ListarTodoPorAlbum(string codigoAlbum)
         {
             List<Album> albums = AlbumRepository.ListarAlbumes();
-            return albums.Where(a => a.Canciones.Exists(b => b.Codigo.Equals(codigoCancion))).SelectMany(a => a.Canciones.Where(b => b.Codigo.Equals(codigoCancion))).ToList();
+            Album album = albums.Find(a => a.Codigo.Equals(codigoAlbum));
+            return album.Canciones;
         }
 
         public List<Cancion> MostrarCancionMasLarga()
         {
-          
+            List<Album> albums = AlbumRepository.ListarAlbumes();
+            double menorduracion = albums.Max(a => a.Canciones.Max(b => b.Duracion));
+            return albums.SelectMany(a => a.Canciones).Where(c => c.Duracion == menorduracion).ToList(); // SelectMany fue aprendido por cuenta propia
         }
         public List<Cancion> MostrarCancionMasCorta()
         {
+            List<Album> albums = AlbumRepository.ListarAlbumes();
+            double menorduracion = albums.Min(a => a.Canciones.Min(b => b.Duracion));
+            return albums.SelectMany(a => a.Canciones).Where(c => c.Duracion == menorduracion).ToList(); // SelectMany fue aprendido por cuenta propia
         }
 
     }

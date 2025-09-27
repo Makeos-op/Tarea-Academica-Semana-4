@@ -76,6 +76,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="repositories\AlbumRepository.cs" />
     <Compile Include="repositories\CancionRepository.cs" />
+    <Compile Include="services\AlbumService.cs" />
+    <Compile Include="services\CancionService.cs" />
+    <EmbeddedResource Include="FormAlbum.resx">
+      <DependentUpon>FormAlbum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCancion.resx">
+      <DependentUpon>FormCancion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReporte.resx">
+      <DependentUpon>FormReporte.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -98,8 +112,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="services\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

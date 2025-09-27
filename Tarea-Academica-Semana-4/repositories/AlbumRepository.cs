@@ -32,9 +32,9 @@ namespace Tarea_Academica_Semana_4.repositories
                 Albumes.Max(a => a.Canciones.Count);
             return Albumes.Where(a => a.Canciones.Count == AlbumConMasCanciones).ToList();
         }
-        public List<Album> MostrarAlbum(string codigo)
+        public List<Album> MostrarAlbumconCancion(string codigoCancion)
         {
-            return Albumes.Where(a => a.Canciones.Exists(b => b.Codigo.Equals(codigo))).ToList();
+            return Albumes.Where(a => a.Canciones.Exists(b => b.Codigo.Equals(codigoCancion))).ToList();
         }
 
     }

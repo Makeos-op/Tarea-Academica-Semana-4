@@ -16,5 +16,16 @@ namespace Tarea_Academica_Semana_4
         {
             InitializeComponent();
         }
+
+        private void VerAlbumes_Click(object sender, EventArgs e)
+        {
+            FormAlbum form = new FormAlbum();
+            form.Show(); 
+        }
+
+        private void Salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -23,7 +23,7 @@ namespace Tarea_Academica_Semana_4.repositories
             
             album.Canciones.Add(Cancion);
         }
-        public static List<Cancion> ListarTodoPorAlbum(string codigoAlbum)
+        public List<Cancion> ListarTodoPorAlbum(string codigoAlbum)
         {
             List<Album> albums = AlbumRepository.ListarAlbumes();
             Album album = albums.Find(a => a.Codigo.Equals(codigoAlbum));

@@ -21,14 +21,14 @@ La entidad **Álbum** debe tener al menos las siguientes propiedades:
 ---
 
 ## Requerimientos de la aplicación
-- [] Registrar múltiples álbumes (no se debe permitir el registro de dos álbumes con el mismo código).
-- [] Mostrar todos los álbumes registrados.
-- [] Registrar múltiples canciones en sus respectivos álbumes seleccionados.
-- [] Mostrar el nombre de todas las canciones registradas.
-- [] Listar el nombre de las canciones registradas en un álbum seleccionado.
-- [] Obtener el álbum con mayor número de canciones registradas.
-- [] Listar los álbumes donde se encuentra registrada una canción seleccionada.
-- [] Obtener el nombre de la canción con **mayor** y **menor** duración registrada.
+- [ ] Registrar múltiples álbumes (no se debe permitir el registro de dos álbumes con el mismo código).
+- [ ] Mostrar todos los álbumes registrados.
+- [ ] Registrar múltiples canciones en sus respectivos álbumes seleccionados.
+- [ ] Mostrar el nombre de todas las canciones registradas.
+- [ ] Listar el nombre de las canciones registradas en un álbum seleccionado.
+- [ ] Obtener el álbum con mayor número de canciones registradas.
+- [ ] Listar los álbumes donde se encuentra registrada una canción seleccionada.
+- [ ] Obtener el nombre de la canción con **mayor** y **menor** duración registrada.
 
 ---
 

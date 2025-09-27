@@ -25,7 +25,7 @@ La entidad **Álbum** debe tener al menos las siguientes propiedades:
 - [x] Mostrar todos los álbumes registrados.
 - [x] Registrar múltiples canciones en sus respectivos álbumes seleccionados.
 - [x] Mostrar el nombre de todas las canciones registradas.
-- [ ] Listar el nombre de las canciones registradas en un álbum seleccionado.
+- [x] Listar el nombre de las canciones registradas en un álbum seleccionado.
 - [ ] Obtener el álbum con mayor número de canciones registradas.
 - [ ] Listar los álbumes donde se encuentra registrada una canción seleccionada.
 - [ ] Obtener el nombre de la canción con **mayor** y **menor** duración registrada.
